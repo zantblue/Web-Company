@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(11, 167, 129);
+  background: linear-gradient(
+    180deg,
+    rgba(11, 167, 129, 1) 11%,
+    rgba(53, 216, 249, 1) 75%
+  );
+}
+
+.head .left img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.head .left {
+  /* width: 25%; */
+  flex-basis: 25%;
+}
+.head .middle input {
+  width: 80%;
+  padding: 0.5rem 1rem;
+  border-radius: 1.5rem;
+}
+
+.head .middle {
+  flex-basis: 70%;
+  margin: 0;
+  width: 50%;
+}
+
+.head .right {
+  flex-basis: 20%;
+}
+
+.submenu {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  margin: 0% auto;
+  background-color: white;
+}
+
+.submenu a {
+  padding: 0.5rem 3rem;
+  color: gray;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.submenu a.megatron {
+  color: red;
+}
+
+.menu {
+  background-color: rgb(194, 194, 194);
+  padding: 2rem 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.menu .icon {
+  margin: 0 auto;
+  flex-basis: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menu .icon a {
+  text-decoration: none;
+}
+.menu .icon h2 {
+  font-weight: 500;
+  margin: 0;
+  color: black;
+}
+
+.menu .icon p {
+  font-size: 1.2rem;
+  font-weight: 100;
+  margin: 0;
+  color: black;
+}
+
+.menu .icon h3 {
+  color: red;
+  font-size: 1.6rem;
+}
